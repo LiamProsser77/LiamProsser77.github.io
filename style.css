@@ -401,18 +401,23 @@ border-color: rgba(155, 234, 77, 0.35);
 }
 
 .opensource-icon {
-width: 65px;
-height: 65px;
+    width: 65px;
+    height: 65px;
 
-display: grid;
-place-items: center;
+    display: grid;
+    place-items: center;
 
-border-radius: 14px;
-background: var(--green-glow);
-color: var(--green);
+    border-radius: 14px;
+    background: var(--green-glow);
+    color: var(--green);
 
-font-size: 1.7rem;
+    font-size: 1.7rem;
+}
 
+.opensource-icon img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
 }
 
 .opensource-card h3 {
